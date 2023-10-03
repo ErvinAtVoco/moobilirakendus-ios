@@ -32,6 +32,6 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         fontSize: 16,
         fontWeight: 'bold',
-        marginTom: 30
+        marginTop: 30
     }
 })
