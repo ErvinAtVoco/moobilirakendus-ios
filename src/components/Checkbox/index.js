@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableOpacity } from "react-native";
+import { TouchableOpacity, View, Image } from "react-native";
 
 import { styles } from "./style"
 
@@ -9,7 +9,7 @@ const Checkbox = ({checked, onCheck}) => {
             { checked ?
                 (
                     <View style={styles.innerContainer}>
-                        <Image style={styles.checkicon} source={require('../../assets/check.png')} />
+                        <Image style={styles.checkIcon} source={require('../../assets/check.png')} />
                     </View>
                 ) : null
             }
